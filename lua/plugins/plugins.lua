@@ -16,4 +16,15 @@ return {
       colorscheme = "kanagawa",
     },
   },
+  {
+    "williamboman/mason-lspconfig.nvim", -- mason.nvim
+    opts = {
+      ensure_installed = {
+        "astro",
+        "tailwindcss",
+        "tsserver",
+        "svelte",
+      },
+    },
+  },
 }
