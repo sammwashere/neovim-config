@@ -7,13 +7,14 @@
 return {
   -- add catppuccin
   -- { "catppuccin/nvim", name = "catppuccin", opts = {}, priority = 1000 },
-  { "rebelot/kanagawa.nvim", name = "kanagawa" },
+  -- { "rebelot/kanagawa.nvim", name = "kanagawa" },
+  { "rose-pine/neovim", name = "rose-pine" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      colorscheme = "rose-pine",
     },
   },
   {
