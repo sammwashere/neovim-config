@@ -6,14 +6,14 @@
 -- * override the configuration of LazyVim plugins
 return {
   -- add catppuccin
-  -- { "catppuccin/nvim", name = "catppuccin", opts = {}, priority = 1000 },
-  { "folke/tokyonight.nvim", name = "tokyonight" },
+  { "catppuccin/nvim", name = "catppuccin", opts = {}, priority = 1000 },
+  -- { "folke/tokyonight.nvim", name = "tokyonight" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "catppuccin",
     },
   },
   {
